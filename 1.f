@@ -23,6 +23,7 @@ c      character files*80
       
       
       if(igspeed>0)then
+C new comment to mess with ya!
        call delfile("output.txt",1)
        speedstr="This is the speed string!"
        if(igspeed==1)iff=ifopen("output.txt","w")
