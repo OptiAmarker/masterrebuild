@@ -20,6 +20,7 @@ c      character files*80
       call loaddebug
       call getcmdline
       call setcglobs_c(igquiet,iqperf)
+C test comment for fun ad profit
       
       
       if(igspeed>0)then
