@@ -5,7 +5,7 @@
       use globalmod
       use avldiskmod
       use dflib
-C stuff
+C stuffB2
       
       character speedstr*100,speedback*10
       
