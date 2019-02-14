@@ -24,7 +24,7 @@ c      character files*80
       
       if(igspeed>0)then
        call delfile("output.txt",1)
-       speedstr="This is the speed string!!!!!!!!!!!!!!!"
+       speedstr="This is the speed string!!!!!!!!!!!"
        if(igspeed==1)iff=ifopen("output.txt","w")
        do i=1,1000
         if(igspeed==1)call speedtest(speedstr,iff)
